@@ -50,9 +50,10 @@
             this.palMain.Controls.Add(this.btn3);
             this.palMain.Controls.Add(this.btn2);
             this.palMain.Controls.Add(this.btn1);
-            this.palMain.Location = new System.Drawing.Point(12, 12);
+            this.palMain.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.palMain.Location = new System.Drawing.Point(0, 0);
             this.palMain.Name = "palMain";
-            this.palMain.Size = new System.Drawing.Size(429, 100);
+            this.palMain.Size = new System.Drawing.Size(428, 98);
             this.palMain.TabIndex = 0;
             // 
             // btn8
@@ -141,7 +142,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(453, 123);
+            this.ClientSize = new System.Drawing.Size(428, 98);
             this.Controls.Add(this.palMain);
             this.Name = "frmBeepPlayer";
             this.Text = "簡易電子琴";
